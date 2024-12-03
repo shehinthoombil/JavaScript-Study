@@ -53,3 +53,49 @@ const bind1 = binds.bind(user5)
 const bind2 = binds.bind(user6)
 bind1();
 bind2();
+
+
+
+
+//call method another example
+// const person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     fullName: function() {
+//         return `${this.firstName} ${this.lastName}`;
+//     }
+// };
+
+// const anotherPerson = {
+//     firstName: "Jane",
+//     lastName: "Smith"
+// };
+
+// console.log(person.fullName.call(anotherPerson)); // "Jane Smith"
+
+
+//bind method another example
+// const numbers = [5, 10, 15];
+
+// function sum(a, b, c) {
+//     return a + b + c;
+// }
+
+// console.log(sum.apply(null, numbers)); // 30
+
+//bind methos example
+// const person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     fullName: function() {
+//         return `${this.firstName} ${this.lastName}`;
+//     }
+// };
+
+// const anotherPerson = {
+//     firstName: "Jane",
+//     lastName: "Smith"
+// };
+
+// const boundFullName = person.fullName.bind(anotherPerson);
+// console.log(boundFullName()); // "Jane Smith"

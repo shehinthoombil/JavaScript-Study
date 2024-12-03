@@ -1,13 +1,13 @@
 
-function A(B) {
-    console.log("fisrt")
-    B()
-}
-function B() {
-    console.log("second")
+// function A(B) {
+//     console.log("fisrt")
+//     B();
+// }
+// function B() {
+//     console.log("second")
+// }
 
-}
-A()
+// A(B);
 
 // function A() {
 //     console.log("1");
@@ -26,3 +26,14 @@ A()
 // A()
 // B()
 // C()
+
+function fetchData(callback) {
+    setTimeout(() => {
+        console.log("Data fetched!");
+        callback("Here is the data.");
+    }, 2000); // Simulates a 2-second delay
+}
+
+fetchData((data) => {
+    console.log(data); // Logs "Here is the data."
+});
