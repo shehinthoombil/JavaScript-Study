@@ -9,8 +9,8 @@
 // console.log(arr)
 
 //symbol()
-// const mySymbol = Symbol();
-// console.log(mySymbol);
+const mySymbol = Symbol();
+console.log(mySymbol);
 
 //setImmediate()
 
@@ -21,18 +21,17 @@
 // console.log("End")
 
 //process.nextTick()
-// console.log('start');
+// console.log('start')
 
 // process.nextTick(()=>{
 //     console.log("this run before the next event loops starts");
-    
 // })
 // console.log('end');
 
 //question
-let x = 10;
-let y = 5;
-console.log(!(x<y));
+// let x = 10;
+// let y = 5;
+// console.log(!(x<y));
 
 //2 array sum
 // const arr1 = [1, 2, 3, 4, 5];

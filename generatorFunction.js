@@ -28,4 +28,3 @@ console.log(evenNum.next().value)
 console.log(evenNum.next().value)
 console.log(evenNum.next().value)
 console.log(evenNum.next().value)
-
